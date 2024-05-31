@@ -1,0 +1,137 @@
+.header-container {
+  height: 100%;
+  background-image: url("img/bg-header.png");
+  background-repeat: no-repeat ;
+  background-position: center top;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--font-primary-color);
+  padding-top: 20px;
+  font-size: 36px;
+}
+.nav-img {
+  height: auto;
+  width: 40px;
+}
+#right-menu-icon-id {
+  width: 175px;
+  text-align: right;
+}
+
+.banner-title h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  margin: 40px 0px;
+  padding: 0px 45px;
+}
+.banner-description{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px 0px;
+  padding: 0px 45px;
+}
+
+.banner-profile-container{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--font-primary-color);
+  border-bottom: 1px solid var(--font-primary-color);
+
+
+}
+
+
+#banner-image{
+  
+  height: 300px ;
+}
+.banner-image-container{
+  background-color: var(--font-primary-color);
+  width: fit-content;
+}
+.banner-profile-desc{
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 25px;
+  
+}
+.check-works{
+  border-bottom: 1px solid var(--font-primary-color);
+
+}
+.work-icon-container{
+  display: flex;
+  gap: 0px;
+  padding: 30px 0px;
+
+}
+.check-icon{
+  width: 35px;
+  height: 45px;
+}
+
+.complete-project-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.complete-project-card h1{
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.complete-project-card p{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576) {
+  .container{
+    padding: 0px 0px;
+  }
+  .nav {
+    color: red;
+  }
+  .complete-project-container{
+    flex-direction: column;
+  }
+  
+  .banner-profile-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-image-container{
+    width: 100%;
+  }
+
+  .banner-title h1{
+    font-size: 20px;
+  }
+  #banner-image{
+  
+    width: 300px ;
+  }
+
+
+
+}

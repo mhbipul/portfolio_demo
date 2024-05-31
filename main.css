@@ -1,0 +1,134 @@
+.section-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.projects img{
+    width: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.check-all-project button{
+    padding: 18px 50px;
+    background-color: var(--background-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+.check-all-project{
+    display: flex;
+    justify-content: center;
+}
+
+/* Projects ends  */
+
+/* My Blogs starts */
+
+.blogs-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    width: 55px;
+     height: 45px;
+}
+.right-arrow{
+    width: 55px;
+  height: 45px;
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+}
+
+
+.image-size{
+    width: 300px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+
+.tag{
+    background-color: var(--font-primary-color);
+    width: fit-content;
+    padding: 15px 27px;
+    border-radius: 25px;
+    margin: 30px 0px;
+    
+}
+.tag h1{
+    
+    color: black;
+}
+.date-name{
+    display: flex;
+    gap: 20px;
+}
+.round-date{
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.round-name{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(75, 75, 247);
+    border-radius: 100%;
+}
+.blog-title{
+    margin: 30px 0px ;
+}
+.all-blogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* My Blogs Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only  screen and (min-width: 200px) and (max-width: 576px) {
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .all-blogs{
+        flex-direction: column;
+    }
+}
